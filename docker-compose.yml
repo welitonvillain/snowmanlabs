@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  wvillain-snowman-labs:
+    image: wvillain/snowman-labs:latest
+    ports:
+      - "8080:8080"
